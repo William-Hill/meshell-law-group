@@ -1,132 +1,83 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
 
-export const ProductPageTemplate = ({
-  image,
-  title,
-  heading,
-  description,
-  intro,
-  main,
-  testimonials,
-  fullImage,
-  pricing,
-}) => (
-  <section className="section section--gradient">
-    <div className="container">
-      <div className="section">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="content">
-              <div
-                className="full-width-image-container margin-top-0"
-                style={{ backgroundImage: `url(${image})` }}
-              >
-                <h2
-                  className="has-text-weight-bold is-size-1"
-                  style={{
-                    boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-                    backgroundColor: '#f40',
-                    color: 'white',
-                    padding: '1rem',
-                  }}
-                >
-                  {title}
-                </h2>
-              </div>
-              <div className="columns">
-                <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    {heading}
-                  </h3>
-                  <p>{description}</p>
-                </div>
-              </div>
-              <Features gridItems={intro.blurbs} />
-              <div className="columns">
-                <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-3">
-                    {main.heading}
-                  </h3>
-                  <p>{main.description}</p>
-                </div>
-              </div>
-              <div className="tile is-ancestor">
-                <div className="tile is-vertical">
-                  <div className="tile">
-                    <div className="tile is-parent is-vertical">
-                      <article className="tile is-child">
-                        <img
-                          style={{ borderRadius: '5px' }}
-                          src={main.image1.image}
-                          alt={main.image1.alt}
-                        />
-                      </article>
-                    </div>
-                    <div className="tile is-parent">
-                      <article className="tile is-child">
-                        <img
-                          style={{ borderRadius: '5px' }}
-                          src={main.image2.image}
-                          alt={main.image2.alt}
-                        />
-                      </article>
-                    </div>
-                  </div>
-                  <div className="tile is-parent">
-                    <article className="tile is-child">
-                      <img
-                        style={{ borderRadius: '5px' }}
-                        src={main.image3.image}
-                        alt={main.image3.alt}
-                      />
-                    </article>
-                  </div>
-                </div>
-              </div>
-              <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image-container"
-                style={{ backgroundImage: `url(${fullImage})` }}
-              />
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+function handleClick(foo, data){
+  console.log("clicked li:", foo.currentTarget.className)
+
+  // tablinks = document.getElementsByClassName("is-active");
+  // console.log(tablinks)
+  // console.log("data:", data)
+  // $(e.currentTarget).attr('data-id')
+}
+
+// export const ProductPageTemplate = ({
+//   immigration,
+//   immigrationText,
+//   intro,
+// }) => (
+class ProductPageTemplate extends React.Component{
+  render(){
+    return(
+      <React.Fragment>
+        console.log("hello")
+        <section id="about_us_header" class="hero is-info has-text-centered">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title">
+                Practice Areas
+              </h1>
             </div>
           </div>
-        </div>
+        </section>
+
+        <div class="tabs is-centered">
+          <ul>
+            <li class="is-active"><a className="tablinks">Family Immigration</a></li>
+            <li><a className="deportation" onClick={(e) => handleClick(e)}>Deportation and Removal Defense</a></li>
+            <li><a className="tablinks">DACA</a></li>
+            <li><a className="tablinks">Crime Victims</a></li>
+            <li><a className="tablinks">Temporary Protected Status</a></li>
+            <li><a className="tablinks">Citizenship and Naturalization</a></li>
+            <li><a className="tablinks">Employment Immigration</a></li>
+          </ul>
       </div>
-    </div>
-  </section>
-)
+
+        <section className="section section--gradient">
+          <div className="container">
+            <div className="section">
+              <div className="columns">
+                <div className="column is-10 is-offset-1">
+                  <div className="content">
+                    <div className="columns">
+                      <div className="column is-7">
+                        <h3 className="has-text-weight-semibold is-size-2">
+                          {this.props.immigration}
+                        </h3>
+                        <p>{this.props.immigrationText}</p>
+                      </div>
+                    </div>
+                    <div className="columns">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </React.Fragment>
+    );
+  }
+}
 
 ProductPageTemplate.propTypes = {
-  image: PropTypes.string,
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  description: PropTypes.string,
+  immigration: PropTypes.string,
+  immigrationText: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
-  main: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    image1: PropTypes.object,
-    image2: PropTypes.object,
-    image3: PropTypes.object,
-  }),
-  testimonials: PropTypes.array,
-  fullImage: PropTypes.string,
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array,
-  }),
+  tabs: PropTypes.shape({
+    tablist: PropTypes.array,
+  })
 }
 
 const ProductPage = ({ data }) => {
@@ -134,15 +85,10 @@ const ProductPage = ({ data }) => {
 
   return (
     <ProductPageTemplate
-      image={frontmatter.image}
-      title={frontmatter.title}
-      heading={frontmatter.heading}
-      description={frontmatter.description}
+      immigration={frontmatter.immigration}
+      immigrationText={frontmatter.immigration_text}
       intro={frontmatter.intro}
-      main={frontmatter.main}
-      testimonials={frontmatter.testimonials}
-      fullImage={frontmatter.full_image}
-      pricing={frontmatter.pricing}
+      tabs={frontmatter.tabs}
     />
   )
 }
@@ -161,47 +107,18 @@ export const productPageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
-        title
-        image
-        heading
-        description
+        immigration
+        immigration_text
+        tabs {
+          tablist {
+            tab
+            content
+          }
+        }
         intro {
           blurbs {
             image
             text
-          }
-          heading
-          description
-        }
-        main {
-          heading
-          description
-          image1 {
-            alt
-            image
-          }
-          image2 {
-            alt
-            image
-          }
-          image3 {
-            alt
-            image
-          }
-        }
-        testimonials {
-          author
-          quote
-        }
-        full_image
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
           }
         }
       }
