@@ -4,12 +4,55 @@ path: /products
 title: Our Coffee
 image: /img/jumbotron.jpg
 heading: What we offer
+<<<<<<< Updated upstream
 immigration: Family Immigration
 immigration_text: Family members including children, parents, spouses, and fiancé(e)s may qualify for permanent residence based on their relationship to a U.S. citizen or lawful permanent resident.
 tabs:
   tablist:
     - tab: Family Immigration
     - content: Family members including children, parents, spouses, and fiancé(e)s may qualify for permanent residence based on their relationship to a U.S. citizen or lawful permanent resident.
+=======
+description: >-
+  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  java’s origin and support the farmers that grew it. We take coffee production,
+  roasting and brewing seriously and we’re glad to pass that knowledge to
+  anyone.
+immigration: Family Immigration
+immigration_text: >
+  Family members including children, parents, spouses, and fiancé(e)s may qualify for permanent residence based on their relationship to a U.S. citizen or lawful permanent resident.
+
+  Relatives that Qualify for the Permanent Residence Petition
+  Immediate Relatives: Relatives of U.S. citizens are immediate relatives if they are spouses, children under 21, or parents of the U.S. citizen.  There is no wait to file for immediate relative visas. Contact Meshel Law Group today to get started.
+  Other relatives are classified under the preference system:
+  1st Preference: Unmarried sons and daughters (over 21) of a U.S. citizen.
+
+  2nd Preference: [2A] Spouses and children (under 21) of a permanent resident. [2B] Unmarried sons and daughters (over 21) of a permanent resident.
+
+  3rd Preference: Married sons and daughters (over 21) of a U.S. citizen.
+
+  4th Preference: Brothers and sisters of a U.S. citizen.
+
+  The first step is to file an immigrant visa petition.The immigrant visa petition for an alien relative can be filed at any time.  The Petitioner must show proof of U.S. citizenship or permanent residence and documentary evidence of the qualifying relationship to the Beneficiary.
+
+  For a Preference category petition, once the Relative Petition is approved, the Application for Permanent Residence can be filed if visas are available.  Visas are always available for immediate relatives of U.S. citizens.  *Beneficiaries under the preference system must wait until visas are available.
+
+  *At the time the Application for Permanent Residence is filed, the Beneficiary can apply for work authorization and permission to travel outside the U.S. while the application is processing.
+
+  Contact Meshel Law Group and begin planning for your family’s future.
+tabs:
+  tablist:
+    - tab: "Pictures"
+      content: "Stuff 1"
+
+    - tab: "Music"
+      content: "Stuff 2"
+
+    - tab: "Videos"
+      content: "Stuff 3"
+
+    - tab: "Documents"
+      content: "Stuff 4"
+>>>>>>> Stashed changes
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -45,58 +88,4 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
-pricing:
-  heading: Monthly subscriptions
-  description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
-  plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
 ---
