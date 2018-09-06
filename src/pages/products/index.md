@@ -4,11 +4,12 @@ path: /products
 title: Our Coffee
 image: /img/jumbotron.jpg
 heading: What we offer
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+immigration: Family Immigration
+immigration_text: Family members including children, parents, spouses, and fiancé(e)s may qualify for permanent residence based on their relationship to a U.S. citizen or lawful permanent resident.
+tabs:
+  tablist:
+    - tab: Family Immigration
+    - content: Family members including children, parents, spouses, and fiancé(e)s may qualify for permanent residence based on their relationship to a U.S. citizen or lawful permanent resident.
 intro:
   blurbs:
     - image: /img/coffee.png
