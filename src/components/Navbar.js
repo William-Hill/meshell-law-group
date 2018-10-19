@@ -19,11 +19,8 @@ const Navbar = () => (
         <Link className="navbar-item" to="/about">
           About Us
         </Link>
-        <Link className="navbar-item" to="/products">
+        <Link className="navbar-item" to="/practice">
           Practice Areas
-        </Link>
-        <Link className="navbar-item" to="/products">
-          News
         </Link>
         <Link className="navbar-item" to="/products">
           Contact
