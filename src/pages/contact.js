@@ -18,11 +18,12 @@ class ContactPage extends React.Component{
         {formApi => (
           <section className="section">
             <div className="container">
-              <form action="https://dqzh778dzd.execute-api.us-west-2.amazonaws.com/dev/" method="post"  id="form1" className="mb-4">
+            <form action="https://formspree.io/william.mj.hill@gmail.com"
+                method="POST">
                 <div class="field">
                   <label class="label">Name</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="e.g Alex Smith" />
+                    <input class="input" name="name" type="text" placeholder="e.g Alex Smith" />
                     <input type="hidden" name="_to" value="william.mj.hill@gmail.com" />
                   </div>
                 </div>
