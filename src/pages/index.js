@@ -18,7 +18,7 @@ export default class IndexPage extends React.Component {
                 <h1 className="title has-text-light has-background-info">
                   Clear, Concise Immigration Council
                 </h1>
-                <a className="button is-link">Schedule a Consultation</a>
+                <a className="button is-link" href="contact">Schedule a Consultation</a>
               </div>
             </div>
           </section>
@@ -44,7 +44,7 @@ export default class IndexPage extends React.Component {
           </div>
 
           <div class="container has-text-centered">
-            <a className="button is-link" style={{marginTop: "1rem"}}>Learn More</a>
+            <a className="button is-link" href="practice" style={{marginTop: "1rem"}}>Learn More</a>
           </div>
     </section>
 
@@ -56,7 +56,6 @@ export default class IndexPage extends React.Component {
             <img src={practice_areas} alt="Practice Areas" />
           </a>
           <p style={{marginTop: "1rem"}}>Family members including children, parents, spouses, and fiancé(e)s may qualify for permanent residence based on their relationship to a U.S. citizen or lawful permanent resident.</p>
-          <a className="button is-link" href="family-immigration" style={{marginTop: "1rem"}}>Read More</a>
         </div>
         <div className="column has-text-centered">
           <a href="community-workshop">
@@ -64,7 +63,6 @@ export default class IndexPage extends React.Component {
             <img src={community} alt="Community Workshops" />
           </a>
           <p style={{marginTop: "1rem"}}>We will hold quarterly Know your rights/community workshop date, time, location and sign up sheet, we also post photos from previous workshops. </p>
-          <a className="button is-link" href="community-workshop" style={{marginTop: "1rem"}}>Read More</a>
         </div>
         <div className="column has-text-centered">
           <a href="contact">
@@ -72,7 +70,6 @@ export default class IndexPage extends React.Component {
             <img src={case_evaluation} alt="Case Evaluation" />
           </a>
           <p style={{marginTop: "1rem"}}>Whatever your particular legal concerns may be, you can be confident that the we are here to help. If you would like to request a case evaluation, please email us or call our office at <strong>469.333.3008</strong></p>
-          <a className="button is-link" href="contact" style={{marginTop: "1rem"}}>Read More</a>
         </div>
       </div>
 
