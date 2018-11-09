@@ -18,19 +18,19 @@ class ContactPage extends React.Component{
         {formApi => (
           <section className="section">
             <div className="container">
-            <form action="https://formspree.io/william.mj.hill@gmail.com"
-                method="POST">
+            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />
                 <div class="field">
                   <label class="label">Name</label>
                   <div class="control">
-                    <input class="input" name="name" type="text" placeholder="e.g Alex Smith" />
-                    <input type="hidden" name="_to" value="william.mj.hill@gmail.com" />
+                    <input class="input" name="name" type="text" />
                   </div>
                 </div>
                 <div class="field">
                   <label class="label">Email</label>
                   <div class="control">
-                    <input class="input" name="_replyTo" type="email" placeholder="e.g. alexsmith@gmail.com" />
+                    <input class="input" name="_replyTo" type="email"  />
                   </div>
                 </div>
                 <div class="field">
