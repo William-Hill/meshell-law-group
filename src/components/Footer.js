@@ -16,7 +16,7 @@ const Footer = () => (
       </div>
       <div className="column">
         <h3>Office Address</h3>
-          <p><i className="fa fa-map-marker" aria-hidden="true"></i>701 Commerce Street Ste.<br />603 Dallas, Texas 75202</p>
+          <p><i className="fa fa-map-marker" aria-hidden="true"></i>3106 Commerce Street<br />Dallas, Texas 75226</p>
           <hr></hr>
           <p><i className="fa fa-phone-square" aria-hidden="true"></i> 469.333.3008</p>
           <p><i className="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:christy@meshellawgroup.com">christy@meshellawgroup.com</a></p>
