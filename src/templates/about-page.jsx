@@ -1,16 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Content, { HTMLContent } from '../components/Content'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Content, { HTMLContent } from '../components/Content';
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+  const PageContent = contentComponent || Content;
 
   return (
     <React.Fragment>
-      <section id="about_us_header" class="hero is-info has-text-centered">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title">
+      <section id="about_us_header" className="hero is-info has-text-centered">
+        <div className="hero-body">
+          <div className="container">
+            <h1 className="title">
               About Us
             </h1>
           </div>
@@ -32,17 +32,17 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         </div>
       </section>
     </React.Fragment>
-  )
-}
+  );
+};
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-}
+};
 
 const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <AboutPageTemplate
@@ -50,14 +50,14 @@ const AboutPage = ({ data }) => {
       title={post.frontmatter.title}
       content={post.html}
     />
-  )
-}
+  );
+};
 
 AboutPage.propTypes = {
   data: PropTypes.object.isRequired,
-}
+};
 
-export default AboutPage
+export default AboutPage;
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
@@ -68,4 +68,4 @@ export const aboutPageQuery = graphql`
       }
     }
   }
-`
+`;
