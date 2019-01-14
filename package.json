@@ -1,7 +1,7 @@
 {
   "name": "Meshel_Law_Group",
   "description": "Website for the Meshel Law Group",
-  "version": "1.0",
+  "version": "1.0.0",
   "author": "William Hill",
   "dependencies": {
     "bulma": "^0.7.0",
@@ -28,6 +28,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.3.0",
     "uuid": "^3.2.1"
   },
   "keywords": [
