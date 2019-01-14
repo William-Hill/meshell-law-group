@@ -1,19 +1,45 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+The Meshel Law Group, PLLC, a nationwide full service immigration legal firm. Located in the heart of Dallas, we specialize in employment, family, humanitarian, and removal immigration relief.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Meshel Law Group (MLG) stands for improving our clients' position in society. It does not matter if you are applying for lawful permanent residence through an employer or family based petition, if we are fighting to keep your immigration status, or if we are protecting immigrants against deportation. At MLG, we encourage and empower our clients to come out from the shadows of unlawful status and strive for not only their legal rights, but a better quality of life.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Our firm is grounded on originality and non-traditional legal assistance. At MLG, we understand that navigating through the U.S. immigration system can be complicated and choosing a trustworthy attorney can be difficult; therefore, we go the extra mile to improve accessibility, expand technology-mediated communication, and redefine attorney-client relationships to tailor to our clients convenience.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Meshel Law Group eagerly awaits to undertake the challenges of your case. We guarantee personal, high-quality, and affordable services. We have various pro bono assistance programs and partner with local non-profit organizations around the DFW area.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+We invite you to join our team of advocates, progressors, and dreamers in conquering #NewAmerica!
+
+# Founder, Christy M. White
+<!-- ![Christy White](/img/christy-white.jpg) -->
+<img align="left" style= "padding-right: 1rem; padding-bottom: 1rem;" src="/img/christy-white.jpg">
+
+Christy M. White practices immigration law exclusively. Ms. White is the co-founder and managing partner of The Meshel Law Group, PLLC.
+
+Ms. White was born and raised in Canton, Mississippi, an impoverished and underprivileged city. Eager not to become a statistic of the environment, she excelled in academia and developed a passion for liberating others. Therefore, at the age of 10 she knew she wanted to become an attorney.
+Ms. White received her Juris Doctorate from The University of Mississippi.
+
+After sitting for the Mississippi Bar, she ventured to Dallas, Texas to begin her career and discover her purpose. Shortly after arriving, she began clerking for Berry, Appleman, and Leiden, and after passing the Texas Bar, she continued to pursue an immigration career at Mathur Law Offices, P.C.
+Ms. White focuses her practice on fighting for comprehensive immigration rights, and challenges herself to become a disruptive innovator for the U.S. immigration system. She believes in educating the community about unconstitutional immigration rights and empowering immigrant families to speak out.
+
+
+Ms. White specializes in deportation defense and family immigration. She provides top-notch, strategical defense to service her clients. She has represented client appeals to the BIA and the Northern District of Texas. Ms. White is a volunteer with the Human Rights Initiative, Texas Organizing Project, and Raices.
+
+## Licensed
+- State Bar of Texas
+- State Bar of Mississippi
+
+## Professional Activities
+- American Immigration Lawyers Association (AILA), Dallas Chapter, Member
+- Immigration and Nationality Law Section, Member
+- Dallas Young Lawyers Association, Member
+
+## Education
+- University of Mississippi, J.D.
+- University of Mississippi, B.A., Political Science
+
+## Languages
+- English
+- Spanish
