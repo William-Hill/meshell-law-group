@@ -8,7 +8,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <Layout>
-      <section id="about_us_header" className="hero is-info has-text-centered" style={{backgroundColor: '#293b5b'}}>
+      <section className="hero is-info has-text-centered" style={{backgroundColor: '#293b5b'}}>
         <div className="hero-body">
           <div className="container">
             <h1 className="title">
