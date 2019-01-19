@@ -65,7 +65,7 @@ export default class Index extends React.Component {
           <div className="field">
             <label className="label" htmlFor={"email"}>Email</label>
               <div className="control">
-                <input className="input" type={"email"} name={"_replyTo"} onChange={this.handleChange} id={"email"} required={true} />
+                <input className="input" type={"email"} name={"email"} onChange={this.handleChange} id={"email"} required={true} />
               </div>
           </div>
           <div className="field">
