@@ -7,7 +7,6 @@ import 'react-tabs/style/react-tabs.css';
 export default class PracticePage extends React.Component {
   render() {
     const { data } = this.props
-    console.log("data:", data)
     return (
       <Layout>
         <section className="hero is-info has-text-centered" style={{backgroundColor: '#293b5b'}}>
@@ -29,7 +28,6 @@ export default class PracticePage extends React.Component {
               )}
               </TabList>
               {data.allMarkdownRemark.edges.map(tabHtml => {
-                console.log("tabHtml:", tabHtml)
                 if (tabHtml.node.frontmatter.section !== "index"){
                   return (
                     <TabPanel data-name={tabHtml.node.frontmatter.section} dangerouslySetInnerHTML={{ __html: tabHtml.node.html }}></TabPanel>
