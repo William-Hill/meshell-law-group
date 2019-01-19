@@ -13,8 +13,13 @@ Meshel Law Group eagerly awaits to undertake the challenges of your case. We gua
 We invite you to join our team of advocates, progressors, and dreamers in conquering #NewAmerica!
 
 # Founder, Christy M. White
+
+<br>
+
 <!-- ![Christy White](/img/christy-white.jpg) -->
 <img align="left" style= "padding-right: 1rem; padding-bottom: 1rem;" src="/img/christy-white.jpg">
+
+<br>
 
 Christy M. White practices immigration law exclusively. Ms. White is the co-founder and managing partner of The Meshel Law Group, PLLC.
 
