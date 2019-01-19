@@ -44,4 +44,20 @@ $body-color: #333
 .margin-top-0
   margin-top: 0 !important
 
+@media screen and (min-width: 1408px)
+  #tabContainer
+    max-width: 1344px
+    width: 1344px
+
+[data-name="daca"] ul, [data-name="deportation"] ul, [data-name="crime"] ul, [data-name="temporary"] ul, [data-name="citizenship"] ul, [data-name="employment"] ul,
+  list-style: initial
+  padding-left: 2em
+  padding-bottom: 1em
+
+[role="tablist"]
+  text-align: center!important
+
+react-tabs__tab-panel--selected p
+  text-align: left
+
 @import "~bulma"
