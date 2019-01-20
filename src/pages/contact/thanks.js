@@ -12,7 +12,7 @@ export default () => (
                 {setTimeout(()=>{
                     navigate('/')
                     // Add your logic for the transition
-                  }, 5000);
+                  }, 5000)
               }
             </div>
           </div>
