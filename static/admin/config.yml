@@ -39,6 +39,17 @@ collections:
           - {label: "Hero Header", name: "heroHeader", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
           - {label: "Header Title", name: "headerTitle", widget: "string"}
+          - {label: "Practice Area Image", name: practiceAreasImage, widget: image}
+          - {label: "Practice Area Text", name: "practiceAreasText", widget: "string"}
+          - {label: "Community Image", name: communityImage, widget: image}
+          - {label: "Community Text", name: "communityText", widget: "string"}
+          - {label: "Case Evaluation Image", name: caseEvaluationImage, widget: image}
+          - {label: "Case Evaluation Text", name: "caseEvaluationText", widget: "string"}
+          - {label: "Bio Image", name: bioImage, widget: image}
+          - {label: "Bio Header", name: "bioHeader", widget: "string"}
+          - {label: "Bio Intro", name: "bioIntro", widget: "string"}
+          - {label: "Bio Body", name: "bioBody", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
