@@ -20,6 +20,14 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "practice areas"
+    label: "Practice Areas"
+    folder: "src/pages/practice"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "practice"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "pages"
     label: "Pages"
     files:
