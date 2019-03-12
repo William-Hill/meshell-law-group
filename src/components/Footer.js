@@ -27,7 +27,7 @@ const Footer = () => (
         </p>
         <p>
           <span style={{paddingRight: ".5em", verticalAlign: "sub"}}><FaEnvelope /></span>
-          <a href="mailto:christy@meshellawgroup.com">christy@meshellawgroup.com</a>
+          <a href="mailto:cmw@meshellawgroup.com">cmw@meshellawgroup.com</a>
         </p>
       </div>
     </div>
