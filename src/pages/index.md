@@ -2,7 +2,7 @@
 templateKey: 'index'
 path: /
 title: Index page
-heroHeader: Clear, Concise Immigration Council
+heroHeader: Clear, Concise Immigration Counsel
 image: /img/posters_banner_large.jpg
 subtitle: Welcome to
 headerTitle: The Meshel Law Group, PLLC
