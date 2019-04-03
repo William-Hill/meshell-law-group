@@ -46,7 +46,7 @@ export default class IndexPage extends React.Component {
         <section className="section" style={{backgroundColor: "whitesmoke"}}>
           <div className="columns is-centered">
             <div className="column has-text-centered">
-              <a href="family-immigration">
+              <a href="practice">
                 <p className="title">Practice Areas</p>
                 <img src={ !!practiceAreasImage.childImageSharp ? practiceAreasImage.childImageSharp.fluid.src : practiceAreasImage} alt="Practice Areas" />
               </a>
