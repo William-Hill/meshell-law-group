@@ -53,7 +53,7 @@ export default class IndexPage extends React.Component {
               <p style={{marginTop: "1rem"}}>{data.markdownRemark.frontmatter.practiceAreasText}</p>
             </div>
             <div className="column has-text-centered">
-              <a href="community-workshop">
+              <a href="contact">
                 <p className="title">Community Workshops</p>
                 <img src={ !!communityImage.childImageSharp ? communityImage.childImageSharp.fluid.src : communityImage } alt="Community Workshops" />
               </a>
