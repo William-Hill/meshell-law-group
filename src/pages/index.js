@@ -20,6 +20,53 @@ export default class IndexPage extends React.Component {
       backgroundSize: "cover"
     }
 
+<script type="application/ld+json">
+{"@context":"http:\/\/schema.org",
+"@type":"LegalService",
+"@id":" kg:/g/11g8txx5q4",
+"additionalType": 
+[
+"https://en.wikipedia.org/wiki/Immigration_law",
+"https://www.wikidata.org/wiki/Q231147"],
+"url":"https://mlgimmigrationlaw.com/",
+"name":"Meshel Law Group",
+"alternatename":"Dallas Immigration Lawyer",
+"disambiguatingdescription":"Dallas's best immigration lawyer, combining passion, legal experience, and activism to get the best results for clients and society.",
+"mainEntityOfPage":"https://www.google.com/search?q=MESHEL-LAW-GROUP&kponly&kgmid=/g/11g8txx5q4",
+"areaServed":{
+"@type": "City",
+"name": "Dallas",
+"url": "https://www.wikidata.org/wiki/Q16557"},
+"description":" We are Dallas's trusted immigration law firm. We have been in business in Dallas since 2017. Our attorneys represent individuals seeking to obtain legal immigration status or to apply for numerous types of available visas. We assist clients in naturalization, nonimmigrant visa approvals, and can represent in deportation hearings.",
+"paymentAccepted":"Cash, Visa, Mastercard, American Express, Debit, PayPal, Apple Pay",
+"sameAs":["https://www.facebook.com/mlgimmigration/, https://goo.gl/maps/ydJ6upXt1aB2"],
+"image":" https://lh5.googleusercontent.com/p/AF1QipOYlr1jUDwpgLom74Z08-YgUeyLH5KcGS3Uv-bb=w309-h100-k-no","priceRange":"$-$$$","hasMap":"https://drive.google.com/open?id=1RutPua1Ij7NF5HMNM56iSiKDr1jLDFcA&usp=sharing","email":"cmw@meshellawgroup.com","telephone":"469-333-3008",
+"aggregateRating":
+{"@type":"AggregateRating","ratingValue":"5","reviewCount":"3"},
+"foundingDate": "2017",
+ "founders": [
+ {
+ "@type": "Person",
+ "name": "Christy White",
+ "sameas":["https://www.linkedin.com/in/christy-white-51523b108", "https://www.texasbar.com/attorneys/member.cfm?id=343126"]
+ } ],
+"address":
+{"@type": "PostalAddress",
+"addressLocality": "Dallas",
+"addressRegion": "TX",
+"postalCode":"75226",
+"streetAddress": "3106 Commerce St"},
+"contactPoint": {
+ "@type": "ContactPoint",
+ "contactType": "Customer Support",
+ "telephone": "[+469-333-3008]",
+ "email": "cmw@meshellawgroup.com"
+ },
+"geo":{
+"@type":"GeoCoordinates",
+"latitude":" 32.7839333 ",
+"longitude":" -96.778135 "}}</script>
+
     return (
       <Layout>
         <section className="hero is-large has-bg-img" style={bannerStyle}>
